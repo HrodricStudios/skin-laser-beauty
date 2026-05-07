@@ -30,8 +30,8 @@ export default function Navbar() {
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center gap-3">
               <img 
-                src="/logo.png" 
-                alt="logo" 
+                src="/logo.jpg" 
+                alt="Logo" 
                 className="h-16 w-auto"
               />
               <span className="font-serif text-2xl font-bold text-primary">

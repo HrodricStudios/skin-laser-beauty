@@ -8,7 +8,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-3 mb-4">
               <img 
-                src="/logo.png" 
+                src="/logo.jpg" 
                 alt="Logo" 
                 className="h-8 w-auto"
               />
