@@ -14,12 +14,11 @@ export default function Navbar() {
   }
 
   const navLinks = [
-    { name: 'Home', href: '#home' },
-    { name: 'Services', href: '#services' },
-    { name: 'About', href: '#about' },
-    { name: 'Testimonials', href: '#testimonials' },
-    { name: 'Book Now', href: '#booking' },
-  ]
+  { name: 'Inicio', href: '#home' },
+  { name: 'Servicios', href: '#services' },
+  { name: 'Nosotros', href: '#about' },
+  { name: 'Testimonios', href: '#testimonials' },
+]
 
   return (
     <nav className={`fixed w-full z-50 transition-all duration-300 ${
@@ -53,7 +52,7 @@ export default function Navbar() {
               </Link>
             ))}
             <button className="btn-primary">
-              Book Appointment
+              Solicitá tu turno
             </button>
           </div>
 
@@ -88,7 +87,7 @@ export default function Navbar() {
               </Link>
             ))}
             <button className="btn-primary w-full mt-4">
-              Book Appointment
+              Solicitá tu turno
             </button>
           </div>
         )}
