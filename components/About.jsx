@@ -1,48 +1,57 @@
+import Image from 'next/image'
+
 export default function About() {
   return (
     <section id="about" className="py-20 bg-light">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          {/* Image Side */}
+          
+          {/* Imagen de la máquina Soprano */}
           <div className="relative">
-            <div className="relative h-[500px] rounded-3xl overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/40" />
-              <div className="w-full h-full bg-gradient-to-tr from-accent to-primary/10" />
+            <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl">
+              <Image
+                src="/soprano.jpg"
+                alt="Tecnología Soprano - SkinLaser & Beauty"
+                fill
+                sizes="(max-width: 768px) 100vw, 50vw"
+                className="object-cover"
+              />
             </div>
-            {/* Floating badge */}
+            {/* Badge flotante */}
             <div className="absolute -bottom-8 -right-8 bg-white rounded-2xl shadow-2xl p-6 animate-slide-up">
               <div className="flex items-center gap-4">
                 <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center text-white text-2xl font-bold">
-                  10+
+                  ★
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-dark">Years</div>
-                  <div className="text-gray-600">Experience</div>
+                  <div className="text-gray-600">Calidad</div>
+                  <div className="text-2xl font-bold text-dark">Premium</div>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Content Side */}
+          {/* Texto */}
           <div className="space-y-6">
             <p className="text-primary font-semibold uppercase tracking-wider">
-              About Our Clinic
+              Sobre Nosotros
             </p>
             <h2 className="section-title">
               Where Science Meets Beauty
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed">
-              At SkinLaser & Beauty, we combine cutting-edge laser technology with 
-              luxurious beauty treatments. Our clinic is led by certified professionals 
-              with over a decade of experience in aesthetic medicine.
+              En SkinLaser & Beauty combinamos tecnología láser de última generación 
+              con tratamientos de belleza de lujo. Nuestra clínica está liderada por 
+              profesionales certificados con más de una década de experiencia en 
+              medicina estética.
             </p>
             <div className="space-y-4">
               {[
-                'FDA-approved advanced laser technology',
-                'Certified and experienced practitioners',
-                'Personalized treatment plans',
-                'Luxurious and hygienic environment',
-                'Satisfaction guaranteed results',
+                'Tecnología láser Soprano aprobada por FDA',
+                'Profesionales certificados y con experiencia',
+                'Planes de tratamiento personalizados',
+                'Ambiente de lujo e higiene garantizada',
+                'Resultados con garantía de satisfacción',
               ].map((item, index) => (
                 <div key={index} className="flex items-center gap-3">
                   <div className="w-5 h-5 bg-primary rounded-full flex items-center justify-center">
@@ -55,9 +64,10 @@ export default function About() {
               ))}
             </div>
             <button className="btn-primary mt-8">
-              Learn More About Us
+              Conocé más sobre nosotros
             </button>
           </div>
+
         </div>
       </div>
     </section>
