@@ -2,19 +2,19 @@ import Image from 'next/image'
 
 export default function About() {
   return (
-    <section id="about" className="py-20 bg-light">
+    <section id="about" className="py-20 bg-light overflow-x-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           
           {/* Imagen de la máquina Soprano */}
-          <div className="relative">
-            <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl">
-              <Image
+          <div className="relative mx-auto max-w-md lg:max-w-none">
+            <div className="relative h-[300px] md:h-[500px] rounded-3xl overflow-hidden shadow-2xl">
+              <Image 
                 src="/soprano.jpg"
                 alt="Tecnología Soprano - SkinLaser & Beauty"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
-                className="object-cover"
+                className="object-contain bg-white"
               />
             </div>
             {/* Badge flotante */}
