@@ -22,7 +22,7 @@ export default function Footer() {
             <div className="flex space-x-4">
               {/* Instagram */}
               <a
-                href="#"
+                href="https://instagram.com/sb.skinlaser"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gradient-to-br hover:from-purple-600 hover:via-pink-500 hover:to-yellow-400 transition-all duration-300"
@@ -34,7 +34,7 @@ export default function Footer() {
 
               {/* WhatsApp */}
               <a
-                href="#"
+                href="https://wa.me/5493417121149"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-500 transition-all duration-300"

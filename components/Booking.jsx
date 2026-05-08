@@ -161,13 +161,13 @@ export default function Booking() {
                   },
                   {
                     icon: '📞',
-                    title: 'Call Us',
-                    text: '(555) 123-4567',
+                    title: 'Llamanos',
+                    text: '+54 9 3417 12-1149',
                   },
                   {
-                    icon: '✉️',
-                    title: 'Email Us',
-                    text: 'hello@skinlaserbeauty.com',
+                    icon: '📸',
+                    title: 'Instagram',
+                    text: '@sb.skinlaser',
                   },
                   {
                     icon: '🕐',
