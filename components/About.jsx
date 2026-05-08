@@ -7,7 +7,7 @@ export default function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           
           {/* Imagen de la máquina Soprano */}
-          <div className="relative mx-auto max-w-md lg:max-w-none">
+          <div className="relative">
             <div className="relative h-[300px] md:h-[500px] rounded-3xl overflow-hidden shadow-2xl">
               <Image 
                 src="/soprano.jpg"
