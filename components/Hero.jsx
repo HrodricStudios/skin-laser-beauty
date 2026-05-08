@@ -2,8 +2,8 @@ import Image from 'next/image'
 
 export default function Hero() {
   return (
-    <section id="home" className="relative min-h-screen flex items-center bg-white pt-20">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 w-full">
+    <section id="home" className="relative min-h-screen flex items-center bg-white pt-16 lg:pt-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-16 lg:py-32 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           
           {/* Texto izquierda */}
